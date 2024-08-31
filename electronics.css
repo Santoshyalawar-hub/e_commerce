@@ -1,0 +1,45 @@
+.heading{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.Products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 40PX;
+   
+
+}
+.Products-card img{
+    width: 100;
+    height: 400px;
+   margin: 10px;
+    
+
+}
+.Products-card img:hover{
+    background-color: rgb(102, 36, 183);
+}
+
+
+
+/* .Products-info button{
+    font-size: medium;
+    text-align: center;
+    margin-left: 75px;
+    background-color: rgb(62, 207, 108);
+    
+
+}
+.Products-info button:hover{
+    background-color: rgb(177, 30, 165);
+    color:#000;
+} */
+
+

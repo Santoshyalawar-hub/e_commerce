@@ -1,0 +1,133 @@
+#ULTRABOOST{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+#shopbutton{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-weight: 700;
+   
+    font-size: large;
+    
+
+}
+#ULTRABOOST:hover{
+    background-color: aqua;
+}
+.Hero-section img:hover{
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+
+}
+    
+
+
+.heading{
+    text-align: center;
+    color: #000;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+
+
+.heading button:hover{
+    background-color: brown;
+}
+
+.Products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 40PX auto;
+   
+   
+
+}
+.Products-card img{
+    width: 100;
+    height: 400px;
+   margin: 10px;
+   object-fit: cover;
+    
+
+}
+.Products-card{
+    transform: translateY(-20px);
+    border: 10px solid #ffffff;
+
+}
+.Products-card{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #000;
+   
+    transition: transform 0.3s, 
+    box-shadow 3s;
+    
+    flex: 1 1 300px;
+    max-width: 500px;
+
+}
+.Products-card img:hover{
+    background-color: rgb(102, 36, 183);
+}
+.Products-info{
+    padding: 15px;
+    flex: 1;
+
+}
+.Products-info h4{
+    font-size: x-large;
+}
+.Products-info p{
+    font-size: 30;
+    color: #450548;
+    margin-bottom: 10px;
+
+}
+.Products-info button{
+    padding: 10px;
+    background: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+
+}
+.Products-info button:hover{
+    background-color: aqua;
+}
+#01{
+    content: url(/e-commerce/fashion/images/fashion/boy111.avif);
+}
+
+
+
+
+
+/* .Products-info button{
+    font-size: medium;
+    text-align: center;
+    margin-left: 75px;
+    background-color: rgb(62, 207, 108);
+    
+
+}
+.Products-info button:hover{
+    background-color: rgb(177, 30, 165);
+    color:#000;
+} */
+
+

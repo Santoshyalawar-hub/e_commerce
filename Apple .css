@@ -1,0 +1,16 @@
+.heading{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.Products-apple{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+ 
+
+}
